@@ -6,7 +6,7 @@ postgresql:
   enabled: true
   auth:
     username: outline
-    password: strongpassword
+    password: outlinewiki
     database: outline
   primary:
     persistence:
