@@ -36,7 +36,22 @@ ingress:
   enabled: true
   className: nginx
   hosts:
-    - host: outline.yourdomain.com
+    - host: rieluwiki.uniproject.jp
       paths:
         - path: /
           pathType: ImplementationSpecific
+# Auth settings
+auth:
+  github:
+    enabled: true
+    clientId: "Ov23li73x3dDja3595ZH"
+    clientSecret: "43dd803badecd24a0e8a96e189c59d55e24c92f2"
+# SMTP settings
+smtp:
+  host: "smtp.gmail.com"
+  port: 587
+  username: "namekotoyuki100@gmail.com"
+  password: "jabu osce ebzg ttkz"
+  fromEmail: "outline@uniproject.jp"
+  replyEmail: "no-reply@uniproject.jp"
+  secure: true
