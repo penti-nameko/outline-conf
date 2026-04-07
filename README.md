@@ -1,0 +1,2 @@
+# outline-conf
+outlineのデプロイ用
